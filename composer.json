@@ -1,0 +1,23 @@
+{
+    "name": "robson-soares/getaway-finder",
+    "description": "Encontre hotéis com base em localização e preço.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GetawayFinder\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3",
+        "php-http/mock-client": "^1.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
